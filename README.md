@@ -15,6 +15,7 @@ These are the supporting files used for data processing and training machine lea
 
 
 ### svm
-* Contains raw game state data and Python scripts used to preprocess the data and train an SVM classifier.
+* Contains raw game state data and Python scripts used to preprocess the data and train an SVM classifier in the `data` directory.
+  * Kills are stores in separate CSVS than game state data.
 * The `preprocess.py` script will compute game state gradients
 * The `svm.py` script will train an SVM using SKLearn on the training data output from preprocessing.
